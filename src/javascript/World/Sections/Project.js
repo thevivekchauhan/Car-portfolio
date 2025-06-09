@@ -199,11 +199,83 @@ export default class Project
 
         // Area label
         this.floor.areaLabel = this.meshes.areaLabel.clone()
+
+        // Project name
+        this.floor.nameLabel = new THREE.Mesh(
+            new THREE.PlaneGeometry(10, 1),
+            new THREE.MeshBasicMaterial({
+                transparent: true,
+                depthWrite: false,
+                color: 0xffffff,
+                alphaMap: this.resources.items.areaNameTexture
+            })
+        )
+        this.floor.nameLabel.position.x = this.x + this.floor.x
+        this.floor.nameLabel.position.y = this.y + this.floor.y + 3
+        this.floor.nameLabel.matrixAutoUpdate = false
+        this.floor.nameLabel.updateMatrix()
+        this.container.add(this.floor.nameLabel)
+
+        // Project description
+        this.floor.descriptionLabel = new THREE.Mesh(
+            new THREE.PlaneGeometry(12, 2),
+            new THREE.MeshBasicMaterial({
+                transparent: true,
+                depthWrite: false,
+                color: 0xffffff,
+                alphaMap: this.resources.items.areaDescriptionTexture
+            })
+        )
+        this.floor.descriptionLabel.position.x = this.x + this.floor.x
+        this.floor.descriptionLabel.position.y = this.y + this.floor.y + 1.5
+        this.floor.descriptionLabel.matrixAutoUpdate = false
+        this.floor.descriptionLabel.updateMatrix()
+        this.container.add(this.floor.descriptionLabel)
+
+        // Update textures with project info
+        this.updateProjectInfo()
+
         this.floor.areaLabel.position.x = this.link.x
         this.floor.areaLabel.position.y = this.link.y
         this.floor.areaLabel.position.z = 0.001
         this.floor.areaLabel.matrixAutoUpdate = false
         this.floor.areaLabel.updateMatrix()
-        this.floor.container.add(this.floor.areaLabel)
+    }
+
+    updateProjectInfo()
+    {
+        // Create canvas for name
+        const nameCanvas = document.createElement('canvas')
+        nameCanvas.width = 1000
+        nameCanvas.height = 100
+        const nameCtx = nameCanvas.getContext('2d')
+        nameCtx.font = 'bold 40px Arial'
+        nameCtx.fillStyle = 'white'
+        nameCtx.textAlign = 'center'
+        nameCtx.fillText(this.name, nameCanvas.width / 2, nameCanvas.height / 2)
+
+        // Create texture for name
+        this.floor.nameTexture = new THREE.CanvasTexture(nameCanvas)
+        this.floor.nameTexture.magFilter = THREE.NearestFilter
+        this.floor.nameTexture.minFilter = THREE.LinearFilter
+        this.floor.nameTexture.needsUpdate = true
+        this.floor.nameLabel.material.alphaMap = this.floor.nameTexture
+
+        // Create canvas for description
+        const descCanvas = document.createElement('canvas')
+        descCanvas.width = 1200
+        descCanvas.height = 200
+        const descCtx = descCanvas.getContext('2d')
+        descCtx.font = '20px Arial'
+        descCtx.fillStyle = 'white'
+        descCtx.textAlign = 'center'
+        descCtx.fillText(this.description, descCanvas.width / 2, descCanvas.height / 2)
+
+        // Create texture for description
+        this.floor.descriptionTexture = new THREE.CanvasTexture(descCanvas)
+        this.floor.descriptionTexture.magFilter = THREE.NearestFilter
+        this.floor.descriptionTexture.minFilter = THREE.LinearFilter
+        this.floor.descriptionTexture.needsUpdate = true
+        this.floor.descriptionLabel.material.alphaMap = this.floor.descriptionTexture
     }
 }

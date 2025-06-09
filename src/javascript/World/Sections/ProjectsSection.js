@@ -72,6 +72,7 @@ export default class ProjectsSection
         this.list = [
             {
                 name: 'BuildMyResume',
+                description: 'You can build a comprehensive, professional resume that effectively showcases your qualifications and makes a strong impression on potential employers.',
                 imageSources: [
                     './models/projects/vivekresumebuilder/slideA.jpg',
                     './models/projects/vivekresumebuilder/slideB.jpg',
@@ -90,6 +91,7 @@ export default class ProjectsSection
             },
             {
                 name: 'Vivek Space',
+                description: 'A showcase of rooms and spaces I’ve built, blending design, functionality, and craftsmanship. Each project reflects my commitment to quality and creating environments that inspire.',
                 imageSources: [
                     './models/projects/vivekspace/slideA.jpg',
                     './models/projects/vivekspace/slideB.jpg',
