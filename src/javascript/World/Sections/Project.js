@@ -13,10 +13,12 @@ export default class Project
         this.objects = _options.objects
         this.areas = _options.areas
         this.name = _options.name
+        this.description = _options.description
         this.geometries = _options.geometries
         this.meshes = _options.meshes
         this.debug = _options.debug
         this.name = _options.name
+        this.description = _options.description
         this.x = _options.x
         this.y = _options.y
         this.imageSources = _options.imageSources

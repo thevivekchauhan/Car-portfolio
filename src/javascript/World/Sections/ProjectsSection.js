@@ -74,9 +74,9 @@ export default class ProjectsSection
                 name: 'BuildMyResume',
                 description: 'You can build a comprehensive, professional resume that effectively showcases your qualifications and makes a strong impression on potential employers.',
                 imageSources: [
-                    './models/projects/vivekresumebuilder/slideA.jpg',
-                    './models/projects/vivekresumebuilder/slideB.jpg',
-                    './models/projects/vivekresumebuilder/slideC.jpg'
+                    '../viveksproject/vivekresumebuilder.png',
+                    '../viveksproject/vivekresumebuilder.png',
+                    '../viveksproject/vivekresumebuilder.png'
                 ],
                 floorTexture: this.resources.items.projectsResumeBuilderFloorTexture,
                 link: {
@@ -93,9 +93,9 @@ export default class ProjectsSection
                 name: 'Vivek Space',
                 description: 'A showcase of rooms and spaces I’ve built, blending design, functionality, and craftsmanship. Each project reflects my commitment to quality and creating environments that inspire.',
                 imageSources: [
-                    './models/projects/vivekspace/slideA.jpg',
-                    './models/projects/vivekspace/slideB.jpg',
-                    './models/projects/vivekspace/slideC.jpg'
+                    '../viveksproject/vivekspace.png',
+                    '../viveksproject/vivekspace.png',
+                    '../viveksproject/vivekspace.png'
                 ],
                 floorTexture: this.resources.items.projectsVivekSpaceFloorTexture,
                 link: {
@@ -111,9 +111,9 @@ export default class ProjectsSection
             {
                 name: 'MAC OS',
                 imageSources: [
-                    './models/projects/operating/slideA.jpg',
-                    './models/projects/lockMAC/slideB.jpg',
-                    './models/projects/finderMAC/slideC.jpg'
+                    '../viveksproject/operating.png',
+                    '../viveksproject/lockMAC.png',
+                    '../viveksproject/finderMAC.png'
                 ],
                 floorTexture: this.resources.items.projectsMacOSFloorTexture,
                 link: {
@@ -129,9 +129,9 @@ export default class ProjectsSection
             {
                 name: "Vivek's Room",
                 imageSources: [
-                    './models/projects/Vivek\'s_Room/slideA.jpg',
-                    './models/projects/Vivek\'s_Room/slideB.jpg',
-                    './models/projects/Vivek\'s_Room/slideC.jpg'
+                    '../viveksproject/Vivek\'s_Room.png',
+                    '../viveksproject/Vivek\'s_Room.png',
+                    '../viveksproject/Vivek\'s_Room.png'
                 ],
                 floorTexture: this.resources.items.projectsVivekRoomFloorTexture,
                 link: {
@@ -147,9 +147,9 @@ export default class ProjectsSection
             {
                 name: 'Vi Way',
                 imageSources: [
-                    './models/projects/viway/slideA.jpg',
-                    './models/projects/viway/slideB.jpg',
-                    './models/projects/viway/slideC.jpg'
+                    '../viveksproject/viway.png',
+                    '../viveksproject/viway.png',
+                    '../viveksproject/viway.png'
                 ],
                 floorTexture: this.resources.items.projectsViWayFloorTexture,
                 link: {
@@ -165,9 +165,9 @@ export default class ProjectsSection
             {
                 name: 'vivekcodex',
                 imageSources: [
-                    './models/projects/vivekcodex/slideA.jpg',
-                    './models/projects/vivekcodex/slideB.jpg',
-                    './models/projects/vivekcodex/slideC.jpg'
+                    '../viveksproject/vivekcodex.png',
+                    '../viveksproject/vivekcodex.png',
+                    '../viveksproject/vivekcodex.png'
                 ],
                 floorTexture: this.resources.items.projectsVivekCodexFloorTexture,
                 link: {
@@ -183,9 +183,9 @@ export default class ProjectsSection
             {
                 name: 'vivekportfoliox',
                 imageSources: [
-                    './models/projects/vivekportfoliox/slideA.jpg',
-                    './models/projects/vivekportfoliox/slideB.jpg',
-                    './models/projects/vivekportfoliox/slideC.jpg'
+                    '../viveksproject/vivekportfoliox.png',
+                    '../viveksproject/vivekportfoliox.png',
+                    '../viveksproject/vivekportfoliox.png'
                 ],
                 floorTexture: this.resources.items.projectsVivekPortfolioXFloorTexture,
                 link: {
@@ -201,9 +201,9 @@ export default class ProjectsSection
             {
                 name: 'Find government job',
                 imageSources: [
-                    './models/projects/GovHub/slideA.jpg',
-                    './models/projects/GovHub/slideB.jpg',
-                    './models/projects/GovHub/slideC.jpg'
+                    '../viveksproject/GovHub.png',
+                    '../viveksproject/GovHub.png',
+                    '../viveksproject/GovHub.png'
                 ],
                 floorTexture: this.resources.items.projectsGovHubFloorTexture,
                 link: {
@@ -219,9 +219,9 @@ export default class ProjectsSection
             {
                 name: 'Jewellery Website',
                 imageSources: [
-                    './models/projects/jewellery/slideA.jpg',
-                    './models/projects/jewellery/slideB.jpg',
-                    './models/projects/jewellery/slideC.jpg'
+                    '../viveksproject/jewellery.png',
+                    '../viveksproject/jewellery.png',
+                    '../viveksproject/jewellery.png'
                 ],
                 floorTexture: this.resources.items.projectsJewelleryFloorTexture,
                 link: {
@@ -237,9 +237,9 @@ export default class ProjectsSection
             {
                 name: 'vivekpassx',
                 imageSources: [
-                    './models/projects/vivekpassx/slideA.jpg',
-                    './models/projects/vivekpassx/slideB.jpg',
-                    './models/projects/vivekpassx/slideC.jpg'
+                    '../viveksproject/vivekpassx.png',
+                    '../viveksproject/vivekpassx.png',
+                    '../viveksproject/vivekpassx.png'
                 ],
                 floorTexture: this.resources.items.projectsVivekPassXFloorTexture,
                 link: {
@@ -255,9 +255,9 @@ export default class ProjectsSection
             {
                 name: 'Podcast',
                 imageSources: [
-                    './models/projects/podcast/slideA.jpg',
-                    './models/projects/podcast/slideB.jpg',
-                    './models/projects/podcast/slideC.jpg'
+                    '../viveksproject/podcast.png',
+                    '../viveksproject/podcast.png',
+                    '../viveksproject/podcast.png'
                 ],
                 floorTexture: this.resources.items.projectsPodcastFloorTexture,
                 link: {
@@ -273,9 +273,9 @@ export default class ProjectsSection
             {
                 name: 'YouTube',
                 imageSources: [
-                    './models/projects/Youtube/slideA.jpg',
-                    './models/projects/Youtube/slideB.jpg',
-                    './models/projects/Youtube/slideC.jpg'
+                    '../viveksproject/Youtube.png',
+                    '../viveksproject/Youtube.png',
+                    '../viveksproject/Youtube.png'
                 ],
                 floorTexture: this.resources.items.projectsYoutubeFloorTexture,
                 link: {
