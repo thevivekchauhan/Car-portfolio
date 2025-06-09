@@ -74,9 +74,9 @@ export default class ProjectsSection
                 name: 'BuildMyResume',
                 description: 'You can build a comprehensive, professional resume that effectively showcases your qualifications and makes a strong impression on potential employers.',
                 imageSources: [
-                    '../viveksproject/vivekresumebuilder.png',
-                    '../viveksproject/vivekresumebuilder1.png',
-                    '../viveksproject/vivekresumebuilder2.png'
+                    // '/models/projects/buildmyresume.png',
+                    '/models/projects/vivekresumebuilder1.png',
+                    '/models/projects/vivekresumebuilder2.png'
                 ],
                 floorTexture: this.resources.items.projectsResumeBuilderFloorTexture,
                 link: {
@@ -93,9 +93,9 @@ export default class ProjectsSection
                 name: 'Vivek Space',
                 description: 'A showcase of rooms and spaces I’ve built, blending design, functionality, and craftsmanship. Each project reflects my commitment to quality and creating environments that inspire.',
                 imageSources: [
-                    '../viveksproject/vivekspace.png',
-                    '../viveksproject/vivekspace1.png',
-                    '../viveksproject/vivekspace2.png'
+                    '/models/projects/vivekspace.png',
+                    '/models/projects/vivekspace1.png',
+                    '/models/projects/vivekspace2.png'
                 ],
                 floorTexture: this.resources.items.projectsVivekSpaceFloorTexture,
                 link: {
@@ -112,9 +112,9 @@ export default class ProjectsSection
                 name: 'MAC OS',
                 description: 'This project was built to serve as a macOS-inspired operating system, enabling users to experience a refined, Apple-style interface without being confined to proprietary hardware or software limitations.',
                 imageSources: [
-                    '../viveksproject/operating.png',
-                    '../viveksproject/lockMAC.png',
-                    '../viveksproject/finderMAC.png'
+                    '/models/projects/operating.png',
+                    '/models/projects/lockMAC.png',
+                    '/models/projects/finderMAC.png'
                 ],
                 floorTexture: this.resources.items.projectsMacOSFloorTexture,
                 link: {
@@ -131,9 +131,9 @@ export default class ProjectsSection
                 name: 'Windows OS',
                 description: 'The goal of this platform is to serve as a Windows-inspired operating system, offering a centralized experience for users seeking a familiar yet independently developed desktop environment.',
                 imageSources: [
-                    '../viveksproject/lockWindows.png',
-                    '../viveksproject/homeWindows.png',
-                    '../viveksproject/windows1.png',
+                    '/models/projects/lockWindows.png',
+                    '/models/projects/homeWindows.png',
+                    '/models/projects/windows1.png',
                 ],
                 floorTexture: this.resources.items.projectsMacOSFloorTexture,
                 link: {
@@ -150,9 +150,9 @@ export default class ProjectsSection
                 name: "Vivek's Room",
                 description: 'This immersive 3D portfolio presents my work through a modern digital room setup where each device—from PCs to mobile phones—runs a personalized Windows clone I developed, illustrating cross-device consistency and UI/UX design capabilities.',
                 imageSources: [
-                    '../viveksproject/Vivek\'s_Room.png',
-                    '../viveksproject/Vivek\'s_Room1.png',
-                    '../viveksproject/Vivek\'s_Room2.png'
+                    '/models/projects/Vivek\'s_Room.png',
+                    '/models/projects/Vivek\'s_Room1.png',
+                    '/models/projects/Vivek\'s_Room2.png'
                 ],
                 floorTexture: this.resources.items.projectsVivekRoomFloorTexture,
                 link: {
@@ -169,9 +169,9 @@ export default class ProjectsSection
                 name: 'Vi Way',
                 description: 'ViWay is a travel vlog platform that curates and showcases engaging travel content. It offers a seamless user experience for discovering and enjoying travel vlogs from various destinations.',
                 imageSources: [
-                    '../viveksproject/viway.png',
-                    '../viveksproject/viway1.png',
-                    '../viveksproject/viway2.png'
+                    '/models/projects/viway.png',
+                    '/models/projects/viway1.png',
+                    '/models/projects/viway2.png'
                 ],
                 floorTexture: this.resources.items.projectsViWayFloorTexture,
                 link: {
@@ -188,9 +188,9 @@ export default class ProjectsSection
                 name: 'vivekcodex',
                 description: 'I have developed this website to help you send secret messages securely. Whether it is for your friends, partner (GF, BF), or siblings, you can share coded messages that only those who know this website can understand, so share the link. Keep your conversations private and secure.',
                 imageSources: [
-                    '../viveksproject/vivekcodex.png',
-                    '../viveksproject/vivekcodex1.png',
-                    '../viveksproject/vivekcodex2.png'
+                    '/models/projects/vivekcodex.png',
+                    // '/models/projects/vivekcodex1.png',
+                    '/models/projects/vivekcodex2.png'
                 ],
                 floorTexture: this.resources.items.projectsVivekCodexFloorTexture,
                 link: {
@@ -207,9 +207,9 @@ export default class ProjectsSection
                 name: 'vivekportfoliox',
                 description: 'You can create your portfolio using this website in just four simple steps. Follow the process & your beautiful portfolio!',
                 imageSources: [
-                    '../viveksproject/vivekportfoliox.png',
-                    '../viveksproject/vivekportfoliox1.png',
-                    '../viveksproject/vivekportfoliox2.png'
+                    '/models/projects/vivekportfoliox.png',
+                    '/models/projects/vivekportfoliox1.png',
+                    '/models/projects/vivekportfoliox2.png'
                 ],
                 floorTexture: this.resources.items.projectsVivekPortfolioXFloorTexture,
                 link: {
@@ -226,9 +226,9 @@ export default class ProjectsSection
                 name: 'Find government job',
                 description: 'The purpose of this website is to serve as a centralized platform for individuals seeking employment opportunities within government agencies at various levels.',
                 imageSources: [
-                    '../viveksproject/GovHub.png',
-                    '../viveksproject/GovHub1.png',
-                    '../viveksproject/GovHub2.png'
+                    '/models/projects/GovHub.png',
+                    '/models/projects/GovHub1.png',
+                    '/models/projects/GovHub2.png'
                 ],
                 floorTexture: this.resources.items.projectsGovHubFloorTexture,
                 link: {
@@ -245,9 +245,9 @@ export default class ProjectsSection
                 name: 'Jewellery Website',
                 description: 'I have designed my portfolio to present my expertise, past projects, and experiences in an attractive format, offering potential employers and clients a detailed look at my capabilities and accomplishments.',
                 imageSources: [
-                    '../viveksproject/jewellery.png',
-                    '../viveksproject/jewellery1.png',
-                    '../viveksproject/jewellery2.png'
+                    '/models/projects/jewellery.png',
+                    '/models/projects/jewellery1.png',
+                    '/models/projects/jewellery2.png'
                 ],
                 floorTexture: this.resources.items.projectsJewelleryFloorTexture,
                 link: {
@@ -264,9 +264,9 @@ export default class ProjectsSection
                 name: 'vivekpassx',
                 description: 'I have developed this website to help how strong your password is. It is a password strength checker tool that helps you to create a strong password. It is a free online tool that helps you to create a strong password.',
                 imageSources: [
-                    '../viveksproject/vivekpassx.png',
-                    '../viveksproject/vivekpassx1.png',
-                    '../viveksproject/vivekpassx2.png'
+                    '/models/projects/vivekpassx.png',
+                    '/models/projects/vivekpassx1.png',
+                    '/models/projects/vivekpassx2.png'
                 ],
                 floorTexture: this.resources.items.projectsVivekPassXFloorTexture,
                 link: {
@@ -283,9 +283,9 @@ export default class ProjectsSection
                 name: 'Podcast',
                 description: 'I focus on delivering insightful content that adds value to others. At the heart of it is a desire to connect with people and build a supportive community.',
                 imageSources: [
-                    '../viveksproject/podcast.png',
-                    '../viveksproject/podcast1.png',
-                    '../viveksproject/podcast2.png'
+                    '/models/projects/podcast.png',
+                    '/models/projects/podcast1.png',
+                    '/models/projects/podcast2.png'
                 ],
                 floorTexture: this.resources.items.projectsPodcastFloorTexture,
                 link: {
@@ -302,9 +302,9 @@ export default class ProjectsSection
                 name: 'YouTube',
                 description: 'I’m a travel vlogger capturing the beauty, culture, and stories of places I visit. Follow my journey through cinematic travel videos on this channel.',
                 imageSources: [
-                    '../viveksproject/Youtube.png',
-                    '../viveksproject/Youtube1.png',
-                    '../viveksproject/Youtube2.png'
+                    '/models/projects/Youtube001.png',
+                    '/models/projects/Youtube002.png',
+                    '/models/projects/Youtube003.png',
                 ],
                 floorTexture: this.resources.items.projectsYoutubeFloorTexture,
                 link: {
