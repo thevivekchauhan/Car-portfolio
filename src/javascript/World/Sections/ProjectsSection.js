@@ -71,320 +71,221 @@ export default class ProjectsSection
     {
         this.list = [
             {
+                name: 'BuildMyResume',
+                imageSources: [
+                    './models/projects/vivekresumebuilder/slideA.jpg',
+                    './models/projects/vivekresumebuilder/slideB.jpg',
+                    './models/projects/vivekresumebuilder/slideC.jpg'
+                ],
+                floorTexture: this.resources.items.projectsResumeBuilderFloorTexture,
+                link: {
+                    href: 'https://vivekresumebuilder.vercel.app/',
+                    x: -4.8,
+                    y: -3,
+                    halfExtents: {
+                        x: 3.2,
+                        y: 1.5
+                    }
+                }
+            },
+            {
+                name: 'Vivek Space',
+                imageSources: [
+                    './models/projects/vivekspace/slideA.jpg',
+                    './models/projects/vivekspace/slideB.jpg',
+                    './models/projects/vivekspace/slideC.jpg'
+                ],
+                floorTexture: this.resources.items.projectsVivekSpaceFloorTexture,
+                link: {
+                    href: 'https://vivekspace.vercel.app/',
+                    x: -4.8,
+                    y: -3,
+                    halfExtents: {
+                        x: 3.2,
+                        y: 1.5
+                    }
+                }
+            },
+            {
+                name: 'MAC OS',
+                imageSources: [
+                    './models/projects/operating/slideA.jpg',
+                    './models/projects/lockMAC/slideB.jpg',
+                    './models/projects/finderMAC/slideC.jpg'
+                ],
+                floorTexture: this.resources.items.projectsMacOSFloorTexture,
+                link: {
+                    href: 'https://vivekmac.vercel.app/',
+                    x: -4.8,
+                    y: -3,
+                    halfExtents: {
+                        x: 3.2,
+                        y: 1.5
+                    }
+                }
+            },
+            {
+                name: "Vivek's Room",
+                imageSources: [
+                    './models/projects/Vivek\'s_Room/slideA.jpg',
+                    './models/projects/Vivek\'s_Room/slideB.jpg',
+                    './models/projects/Vivek\'s_Room/slideC.jpg'
+                ],
+                floorTexture: this.resources.items.projectsVivekRoomFloorTexture,
+                link: {
+                    href: 'https://vivekroom.vercel.app/',
+                    x: -4.8,
+                    y: -3,
+                    halfExtents: {
+                        x: 3.2,
+                        y: 1.5
+                    }
+                }
+            },
+            {
+                name: 'Vi Way',
+                imageSources: [
+                    './models/projects/viway/slideA.jpg',
+                    './models/projects/viway/slideB.jpg',
+                    './models/projects/viway/slideC.jpg'
+                ],
+                floorTexture: this.resources.items.projectsViWayFloorTexture,
+                link: {
+                    href: 'https://viway.vercel.app/',
+                    x: -4.8,
+                    y: -3,
+                    halfExtents: {
+                        x: 3.2,
+                        y: 1.5
+                    }
+                }
+            },
+            {
+                name: 'vivekcodex',
+                imageSources: [
+                    './models/projects/vivekcodex/slideA.jpg',
+                    './models/projects/vivekcodex/slideB.jpg',
+                    './models/projects/vivekcodex/slideC.jpg'
+                ],
+                floorTexture: this.resources.items.projectsVivekCodexFloorTexture,
+                link: {
+                    href: 'https://vivekcodex.netlify.app/',
+                    x: -4.8,
+                    y: -3,
+                    halfExtents: {
+                        x: 3.2,
+                        y: 1.5
+                    }
+                }
+            },
+            {
+                name: 'vivekportfoliox',
+                imageSources: [
+                    './models/projects/vivekportfoliox/slideA.jpg',
+                    './models/projects/vivekportfoliox/slideB.jpg',
+                    './models/projects/vivekportfoliox/slideC.jpg'
+                ],
+                floorTexture: this.resources.items.projectsVivekPortfolioXFloorTexture,
+                link: {
+                    href: 'https://vivekportfoliox.netlify.app/',
+                    x: -4.8,
+                    y: -3,
+                    halfExtents: {
+                        x: 3.2,
+                        y: 1.5
+                    }
+                }
+            },
+            {
+                name: 'Find government job',
+                imageSources: [
+                    './models/projects/GovHub/slideA.jpg',
+                    './models/projects/GovHub/slideB.jpg',
+                    './models/projects/GovHub/slideC.jpg'
+                ],
+                floorTexture: this.resources.items.projectsGovHubFloorTexture,
+                link: {
+                    href: 'https://thevivekchauhan.github.io/GovHub/',
+                    x: -4.8,
+                    y: -3,
+                    halfExtents: {
+                        x: 3.2,
+                        y: 1.5
+                    }
+                }
+            },
+            {
                 name: 'Jewellery Website',
-                imageSources:
-                [
-                    './models/projects/threejsJourney/slideA.webp',
-                    './models/projects/threejsJourney/slideB.webp',
-                    './models/projects/threejsJourney/slideC.webp',
-                    './models/projects/threejsJourney/slideD.webp'
+                imageSources: [
+                    './models/projects/jewellery/slideA.jpg',
+                    './models/projects/jewellery/slideB.jpg',
+                    './models/projects/jewellery/slideC.jpg'
                 ],
-                floorTexture: this.resources.items.projectsThreejsJourneyFloorTexture,
-                link:
-                {
-                    href: 'https://threejs-journey.com?c=p3',
-                    x: - 4.8,
-                    y: - 3,
-                    halfExtents:
-                    {
+                floorTexture: this.resources.items.projectsJewelleryFloorTexture,
+                link: {
+                    href: 'https://thevivekchauhan.github.io/sonu/',
+                    x: -4.8,
+                    y: -3,
+                    halfExtents: {
                         x: 3.2,
                         y: 1.5
                     }
-                },
-                distinctions:
-                [
-                    { type: 'fwa', x: 3.95, y: 4.15 }
-                ]
+                }
             },
             {
-                name: 'Chartogne Taillet',
-                imageSources:
-                [
-                    './models/projects/chartogne/slideA.jpg',
-                    './models/projects/chartogne/slideB.jpg',
-                    './models/projects/chartogne/slideC.jpg'
+                name: 'vivekpassx',
+                imageSources: [
+                    './models/projects/vivekpassx/slideA.jpg',
+                    './models/projects/vivekpassx/slideB.jpg',
+                    './models/projects/vivekpassx/slideC.jpg'
                 ],
-                floorTexture: this.resources.items.projectsChartogneFloorTexture,
-                link:
-                {
-                    href: 'https://chartogne-taillet.com',
-                    x: - 4.8,
-                    y: - 3.3,
-                    halfExtents:
-                    {
+                floorTexture: this.resources.items.projectsVivekPassXFloorTexture,
+                link: {
+                    href: 'https://vivekpassx.netlify.app/',
+                    x: -4.8,
+                    y: -3,
+                    halfExtents: {
                         x: 3.2,
                         y: 1.5
                     }
-                },
-                distinctions:
-                [
-                    { type: 'awwwards', x: 3.95, y: 4.15 },
-                    { type: 'fwa', x: 5.6, y: 4.15 },
-                    { type: 'cssda', x: 7.2, y: 4.15 }
-                ]
+                }
             },
             {
-                name: 'Bonhomme | 10 ans',
-                imageSources:
-                [
-                    './models/projects/bonhomme10ans/slideA.webp',
-                    './models/projects/bonhomme10ans/slideB.webp',
-                    './models/projects/bonhomme10ans/slideC.webp',
-                    './models/projects/bonhomme10ans/slideD.webp'
+                name: 'Podcast',
+                imageSources: [
+                    './models/projects/podcast/slideA.jpg',
+                    './models/projects/podcast/slideB.jpg',
+                    './models/projects/podcast/slideC.jpg'
                 ],
-                floorTexture: this.resources.items.projectsBonhomme10ansFloorTexture,
-                link:
-                {
-                    href: 'https://anniversary.bonhommeparis.com/',
-                    x: - 4.8,
-                    y: - 2,
-                    halfExtents:
-                    {
+                floorTexture: this.resources.items.projectsPodcastFloorTexture,
+                link: {
+                    href: 'https://podcasts.apple.com/us/podcast/vivek-chauhan/id1526873795',
+                    x: -4.8,
+                    y: -3,
+                    halfExtents: {
                         x: 3.2,
                         y: 1.5
                     }
-                },
-                distinctions:
-                [
-                    { type: 'awwwards', x: 3.95, y: 4.15 },
-                    { type: 'fwa', x: 5.6, y: 4.15 },
-                ]
+                }
             },
             {
-                name: 'Luni.app',
-                imageSources:
-                [
-                    './models/projects/luni/slideA.webp',
-                    './models/projects/luni/slideB.webp',
-                    './models/projects/luni/slideC.webp',
-                    './models/projects/luni/slideD.webp'
+                name: 'YouTube',
+                imageSources: [
+                    './models/projects/Youtube/slideA.jpg',
+                    './models/projects/Youtube/slideB.jpg',
+                    './models/projects/Youtube/slideC.jpg'
                 ],
-                floorTexture: this.resources.items.projectsLuniFloorTexture,
-                link:
-                {
-                    href: 'https://luni.app',
-                    x: - 4.8,
-                    y: - 3,
-                    halfExtents:
-                    {
+                floorTexture: this.resources.items.projectsYoutubeFloorTexture,
+                link: {
+                    href: 'https://www.youtube.com/@thevivekchauhan',
+                    x: -4.8,
+                    y: -3,
+                    halfExtents: {
                         x: 3.2,
                         y: 1.5
                     }
-                },
-                distinctions:
-                [
-                    { type: 'awwwards', x: 3.95, y: 4.15 },
-                    { type: 'fwa', x: 5.6, y: 4.15 },
-                ]
-            },
-            {
-                name: 'Madbox',
-                imageSources:
-                [
-                    './models/projects/madbox/slideA.jpg',
-                    './models/projects/madbox/slideB.jpg',
-                    './models/projects/madbox/slideC.jpg'
-                ],
-                floorTexture: this.resources.items.projectsMadboxFloorTexture,
-                link:
-                {
-                    href: 'https://madbox.io',
-                    x: - 4.8,
-                    y: - 4,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                },
-                distinctions:
-                [
-                    { type: 'awwwards', x: 3.95, y: 4.15 },
-                    { type: 'fwa', x: 5.6, y: 4.15 }
-                ]
-            },
-            {
-                name: 'Scout',
-                imageSources:
-                [
-                    './models/projects/scout/slideA.jpg',
-                    './models/projects/scout/slideB.jpg',
-                    './models/projects/scout/slideC.jpg'
-                ],
-                floorTexture: this.resources.items.projectsScoutFloorTexture,
-                link:
-                {
-                    href: 'https://fromscout.com',
-                    x: - 4.8,
-                    y: - 2,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                },
-                distinctions:
-                [
-                ]
-            },
-            // {
-            //     name: 'Zenly',
-            //     imageSources:
-            //     [
-            //         './models/projects/zenly/slideA.jpg',
-            //         './models/projects/zenly/slideB.jpg',
-            //         './models/projects/zenly/slideC.jpg'
-            //     ],
-            //     floorTexture: this.resources.items.projectsZenlyFloorTexture,
-            //     link:
-            //     {
-            //         href: 'https://zen.ly',
-            //         x: - 4.8,
-            //         y: - 4.2,
-            //         halfExtents:
-            //         {
-            //             x: 3.2,
-            //             y: 1.5
-            //         }
-            //     },
-            //     distinctions:
-            //     [
-            //         { type: 'awwwards', x: 3.95, y: 4.15 },
-            //         { type: 'fwa', x: 5.6, y: 4.15 },
-            //         { type: 'cssda', x: 7.2, y: 4.15 }
-            //     ]
-            // },
-            {
-                name: 'priorHoldings',
-                imageSources:
-                [
-                    './models/projects/priorHoldings/slideA.jpg',
-                    './models/projects/priorHoldings/slideB.jpg',
-                    './models/projects/priorHoldings/slideC.jpg'
-                ],
-                floorTexture: this.resources.items.projectsPriorHoldingsFloorTexture,
-                link:
-                {
-                    href: 'https://prior.co.jp/discover/',
-                    x: - 4.8,
-                    y: - 3,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                },
-                distinctions:
-                [
-                    { type: 'awwwards', x: 3.95, y: 4.15 },
-                    { type: 'fwa', x: 5.6, y: 4.15 },
-                    { type: 'cssda', x: 7.2, y: 4.15 }
-                ]
-            },
-            {
-                name: 'orano',
-                imageSources:
-                [
-                    './models/projects/orano/slideA.jpg',
-                    './models/projects/orano/slideB.jpg',
-                    './models/projects/orano/slideC.jpg'
-                ],
-                floorTexture: this.resources.items.projectsOranoFloorTexture,
-                link:
-                {
-                    href: 'https://orano.imm-g-prod.com/experience/innovation/en',
-                    x: - 4.8,
-                    y: - 3.4,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                },
-                distinctions:
-                [
-                    { type: 'awwwards', x: 3.95, y: 4.15 },
-                    { type: 'fwa', x: 5.6, y: 4.15 },
-                    { type: 'cssda', x: 7.2, y: 4.15 }
-                ]
-            },
-            {
-                name: 'citrixRedbull',
-                imageSources:
-                [
-                    './models/projects/citrixRedbull/slideA.jpg',
-                    './models/projects/citrixRedbull/slideB.jpg',
-                    './models/projects/citrixRedbull/slideC.jpg'
-                ],
-                floorTexture: this.resources.items.projectsCitrixRedbullFloorTexture,
-                link:
-                {
-                    href: 'https://thenewmobileworkforce.imm-g-prod.com/',
-                    x: - 4.8,
-                    y: - 4.4,
-                    halfExtents:
-                    {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                },
-                distinctions:
-                [
-                    { type: 'awwwards', x: 3.95, y: 4.15 },
-                    { type: 'fwa', x: 5.6, y: 4.15 },
-                    { type: 'cssda', x: 7.2, y: 4.15 }
-                ]
-            },
-            // {
-            //     name: 'gleecChat',
-            //     imageSources:
-            //     [
-            //         './models/projects/gleecChat/slideA.jpg',
-            //         './models/projects/gleecChat/slideB.jpg',
-            //         './models/projects/gleecChat/slideC.jpg',
-            //         './models/projects/gleecChat/slideD.jpg'
-            //     ],
-            //     floorTexture: this.resources.items.projectsGleecChatFloorTexture,
-            //     link:
-            //     {
-            //         href: 'http://gleec.imm-g-prod.com',
-            //         x: - 4.8,
-            //         y: - 3.4,
-            //         halfExtents:
-            //         {
-            //             x: 3.2,
-            //             y: 1.5
-            //         }
-            //     },
-            //     distinctions:
-            //     [
-            //         { type: 'awwwards', x: 3.95, y: 4.15 },
-            //         { type: 'fwa', x: 5.6, y: 4.15 },
-            //         { type: 'cssda', x: 7.2, y: 4.15 }
-            //     ]
-            // },
-            // {
-            //     name: 'keppler',
-            //     imageSources:
-            //     [
-            //         './models/projects/keppler/slideA.jpg',
-            //         './models/projects/keppler/slideB.jpg',
-            //         './models/projects/keppler/slideC.jpg'
-            //     ],
-            //     floorTexture: this.resources.items.projectsKepplerFloorTexture,
-            //     link:
-            //     {
-            //         href: 'https://brunosimon.github.io/keppler/',
-            //         x: 2.75,
-            //         y: - 1.1,
-            //         halfExtents:
-            //         {
-            //             x: 3.2,
-            //             y: 1.5
-            //         }
-            //     },
-            //     distinctions: []
-            // }
+                }
+            }
         ]
     }
 

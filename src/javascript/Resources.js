@@ -119,6 +119,20 @@ export default class Resources extends EventEmitter
             // { name: 'projectsGleecChatFloor', source: './models/projects/gleecChat/floorTexture.png', type: 'texture' },
             // { name: 'projectsKepplerFloor', source: './models/projects/keppler/floorTexture.png', type: 'texture' },
 
+            // New project floor textures
+            { name: 'projectsResumeBuilderFloor', source: './models/projects/vivekresumebuilder/floorTexture.png', type: 'texture' },
+            { name: 'projectsVivekSpaceFloor', source: './models/projects/vivekspace/floorTexture.png', type: 'texture' },
+            { name: 'projectsMacOSFloor', source: './models/projects/operating/floorTexture.png', type: 'texture' },
+            { name: 'projectsVivekRoomFloor', source: './models/projects/Vivek\'s_Room/floorTexture.png', type: 'texture' },
+            { name: 'projectsViWayFloor', source: './models/projects/viway/floorTexture.png', type: 'texture' },
+            { name: 'projectsVivekCodexFloor', source: './models/projects/vivekcodex/floorTexture.png', type: 'texture' },
+            { name: 'projectsVivekPortfolioXFloor', source: './models/projects/vivekportfoliox/floorTexture.png', type: 'texture' },
+            { name: 'projectsGovHubFloor', source: './models/projects/GovHub/floorTexture.png', type: 'texture' },
+            { name: 'projectsJewelleryFloor', source: './models/projects/jewellery/floorTexture.png', type: 'texture' },
+            { name: 'projectsVivekPassXFloor', source: './models/projects/vivekpassx/floorTexture.png', type: 'texture' },
+            { name: 'projectsPodcastFloor', source: './models/projects/podcast/floorTexture.png', type: 'texture' },
+            { name: 'projectsYoutubeFloor', source: './models/projects/Youtube/floorTexture.png', type: 'texture' },
+
             // Information
             { name: 'informationStaticBase', source: './models/information/static/base.glb' },
             { name: 'informationStaticCollision', source: './models/information/static/collision.glb' },
