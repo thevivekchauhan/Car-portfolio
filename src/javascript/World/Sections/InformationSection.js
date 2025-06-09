@@ -89,19 +89,19 @@ export default class InformationSection
         // Options
         this.links.options = [
             {
-                href: 'https://twitter.com/bruno_simon/',
+                href: 'https://x.com/vivekchauhan005?t=3zJ0qDyoBq52MAuRcIzEWQ&s=09',
                 labelTexture: this.resources.items.informationContactTwitterLabelTexture
             },
             {
-                href: 'https://github.com/brunosimon/',
+                href: 'https://github.com/thevivekchauhan',
                 labelTexture: this.resources.items.informationContactGithubLabelTexture
             },
             {
-                href: 'https://www.linkedin.com/in/simonbruno77/',
+                href: 'https://www.linkedin.com/in/thevivekchauhan?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
                 labelTexture: this.resources.items.informationContactLinkedinLabelTexture
             },
             {
-                href: 'mailto:simon.bruno.77@gmail.com',
+                href: 'mailto:thechauhanvivek@gmail.com',
                 labelTexture: this.resources.items.informationContactMailLabelTexture
             }
         ]
