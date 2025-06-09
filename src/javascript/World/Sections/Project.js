@@ -204,7 +204,7 @@ export default class Project
 
         // Project name
         this.floor.nameLabel = new THREE.Mesh(
-            new THREE.PlaneGeometry(10, 1),
+            new THREE.PlaneGeometry(15, 2),  // Increased size for larger text
             new THREE.MeshBasicMaterial({
                 transparent: true,
                 depthWrite: false,
@@ -213,14 +213,14 @@ export default class Project
             })
         )
         this.floor.nameLabel.position.x = this.x + this.floor.x
-        this.floor.nameLabel.position.y = this.y + this.floor.y + 3
+        this.floor.nameLabel.position.y = this.y + this.floor.y + 4  // Increased position
         this.floor.nameLabel.matrixAutoUpdate = false
         this.floor.nameLabel.updateMatrix()
         this.container.add(this.floor.nameLabel)
 
         // Project description
         this.floor.descriptionLabel = new THREE.Mesh(
-            new THREE.PlaneGeometry(12, 2),
+            new THREE.PlaneGeometry(20, 4),  // Increased size for larger text
             new THREE.MeshBasicMaterial({
                 transparent: true,
                 depthWrite: false,
@@ -229,7 +229,7 @@ export default class Project
             })
         )
         this.floor.descriptionLabel.position.x = this.x + this.floor.x
-        this.floor.descriptionLabel.position.y = this.y + this.floor.y + 1.5
+        this.floor.descriptionLabel.position.y = this.y + this.floor.y + 2  // Increased position
         this.floor.descriptionLabel.matrixAutoUpdate = false
         this.floor.descriptionLabel.updateMatrix()
         this.container.add(this.floor.descriptionLabel)
@@ -251,7 +251,7 @@ export default class Project
         nameCanvas.width = 1000
         nameCanvas.height = 100
         const nameCtx = nameCanvas.getContext('2d')
-        nameCtx.font = 'bold 40px Arial'
+        nameCtx.font = 'bold 70px Arial'
         nameCtx.fillStyle = 'white'
         nameCtx.textAlign = 'center'
         nameCtx.fillText(this.name, nameCanvas.width / 2, nameCanvas.height / 2)
@@ -265,13 +265,37 @@ export default class Project
 
         // Create canvas for description
         const descCanvas = document.createElement('canvas')
-        descCanvas.width = 1200
-        descCanvas.height = 200
+        descCanvas.width = 2000
+        descCanvas.height = 400
         const descCtx = descCanvas.getContext('2d')
-        descCtx.font = '20px Arial'
+        descCtx.font = '50px Arial'
         descCtx.fillStyle = 'white'
         descCtx.textAlign = 'center'
-        descCtx.fillText(this.description, descCanvas.width / 2, descCanvas.height / 2)
+        
+        // Split description into multiple lines if too long
+        const words = this.description.split(' ')
+        let line = ''
+        const lines = []
+        const maxLineWidth = 1800  // Maximum width for each line
+        
+        for (let word of words) {
+            if (descCtx.measureText(line + word).width > maxLineWidth) {
+                lines.push(line)
+                line = word + ' '
+            } else {
+                line += word + ' '
+            }
+        }
+        lines.push(line)
+        
+        // Draw each line with proper spacing
+        const lineHeight = 70  // Increased line height for larger font
+        const startY = 90  // Increased padding from top
+        const padding = 10  // Additional padding between lines
+        
+        for (let i = 0; i < lines.length; i++) {
+            descCtx.fillText(lines[i], descCanvas.width / 2, startY + (i * (lineHeight + padding)))
+        }
 
         // Create texture for description
         this.floor.descriptionTexture = new THREE.CanvasTexture(descCanvas)
