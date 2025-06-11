@@ -70,6 +70,63 @@ export default class ProjectsSection
     setList()
     {
         this.list = [
+             {
+                name: "Vivek's Room",
+                description: 'This immersive 3D portfolio presents my work through a modern digital room setup where each device—from PCs to mobile phones—runs a personalized Windows clone I developed, illustrating cross-device consistency and UI/UX design capabilities.',
+                imageSources: [
+                    '/models/projects/Vivek\'s_Room.png',
+                    '/models/projects/Vivek\'s_Room1.png',
+                    '/models/projects/Vivek\'s_Room2.png'
+                ],
+                floorTexture: this.resources.items.projectsVivekRoomFloorTexture,
+                link: {
+                    href: 'https://vivekroom.vercel.app/',
+                    x: -4.8,
+                    y: -3,
+                    halfExtents: {
+                        x: 3.2,
+                        y: 1.5
+                    }
+                }
+            },
+             {
+                name: 'Windows OS',
+                description: 'The goal of this platform is to serve as a Windows-inspired operating system, offering a centralized experience for users seeking a familiar yet independently developed desktop environment.',
+                imageSources: [
+                    '/models/projects/lockWindows.png',
+                    '/models/projects/homeWindows.png',
+                    '/models/projects/windows1.png',
+                ],
+                floorTexture: this.resources.items.projectsMacOSFloorTexture,
+                link: {
+                    href: 'https://vivekcore-vivekos-projects.vercel.app/',
+                    x: -4.8,
+                    y: -3,
+                    halfExtents: {
+                        x: 3.2,
+                        y: 1.5
+                    }
+                }
+            },
+              {
+                name: 'Vivek Space',
+                description: 'A showcase of rooms and spaces I’ve built, blending design, functionality, and craftsmanship. Each project reflects my commitment to quality and creating environments that inspire.',
+                imageSources: [
+                    '/models/projects/vivekspace.png',
+                    '/models/projects/vivekspace1.png',
+                    '/models/projects/vivekspace2.png'
+                ],
+                floorTexture: this.resources.items.projectsVivekSpaceFloorTexture,
+                link: {
+                    href: 'https://vivekspace.vercel.app/',
+                    x: -4.8,
+                    y: -3,
+                    halfExtents: {
+                        x: 3.2,
+                        y: 1.5
+                    }
+                }
+            },
             {
                 name: 'BuildMyResume',
                 description: 'You can build a comprehensive, professional resume that effectively showcases your qualifications and makes a strong impression on potential employers.',
@@ -90,25 +147,6 @@ export default class ProjectsSection
                 }
             },
             {
-                name: 'Vivek Space',
-                description: 'A showcase of rooms and spaces I’ve built, blending design, functionality, and craftsmanship. Each project reflects my commitment to quality and creating environments that inspire.',
-                imageSources: [
-                    '/models/projects/vivekspace.png',
-                    '/models/projects/vivekspace1.png',
-                    '/models/projects/vivekspace2.png'
-                ],
-                floorTexture: this.resources.items.projectsVivekSpaceFloorTexture,
-                link: {
-                    href: 'https://vivekspace.vercel.app/',
-                    x: -4.8,
-                    y: -3,
-                    halfExtents: {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                }
-            },
-            {
                 name: 'MAC OS',
                 description: 'This project was built to serve as a macOS-inspired operating system, enabling users to experience a refined, Apple-style interface without being confined to proprietary hardware or software limitations.',
                 imageSources: [
@@ -119,44 +157,6 @@ export default class ProjectsSection
                 floorTexture: this.resources.items.projectsMacOSFloorTexture,
                 link: {
                     href: 'https://vivekmac.vercel.app/',
-                    x: -4.8,
-                    y: -3,
-                    halfExtents: {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                }
-            },
-            {
-                name: 'Windows OS',
-                description: 'The goal of this platform is to serve as a Windows-inspired operating system, offering a centralized experience for users seeking a familiar yet independently developed desktop environment.',
-                imageSources: [
-                    '/models/projects/lockWindows.png',
-                    '/models/projects/homeWindows.png',
-                    '/models/projects/windows1.png',
-                ],
-                floorTexture: this.resources.items.projectsMacOSFloorTexture,
-                link: {
-                    href: 'https://vivekcore-vivekos-projects.vercel.app/',
-                    x: -4.8,
-                    y: -3,
-                    halfExtents: {
-                        x: 3.2,
-                        y: 1.5
-                    }
-                }
-            },
-            {
-                name: "Vivek's Room",
-                description: 'This immersive 3D portfolio presents my work through a modern digital room setup where each device—from PCs to mobile phones—runs a personalized Windows clone I developed, illustrating cross-device consistency and UI/UX design capabilities.',
-                imageSources: [
-                    '/models/projects/Vivek\'s_Room.png',
-                    '/models/projects/Vivek\'s_Room1.png',
-                    '/models/projects/Vivek\'s_Room2.png'
-                ],
-                floorTexture: this.resources.items.projectsVivekRoomFloorTexture,
-                link: {
-                    href: 'https://vivekroom.vercel.app/',
                     x: -4.8,
                     y: -3,
                     halfExtents: {
@@ -305,7 +305,7 @@ export default class ProjectsSection
                     '/models/projects/Youtube001.png',
                     '/models/projects/Youtube002.png',
                     '/models/projects/Youtube003.png',
-                ],
+                ],  
                 floorTexture: this.resources.items.projectsYoutubeFloorTexture,
                 link: {
                     href: 'https://www.youtube.com/@thevivekchauhan',
