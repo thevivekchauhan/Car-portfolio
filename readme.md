@@ -44,7 +44,7 @@ Visit the live site: [Click here 👆🏻](https://vivekwithcar.vercel.app/)
 
 ## 🔧 Installation
 
-1. Clone the repository:
+1. Install dependencies:
 ```bash
-git clone https://github.com/thevivekchauhan/portfolio-3D.git
+npm install
 ```
