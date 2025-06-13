@@ -72,3 +72,10 @@ npm run build
 
 
 ## 🎨 Featured Projects
+
+1. **Vivek's Room** - 3D immersive portfolio
+2. **Windows OS** - Custom Windows-inspired OS
+3. **MAC OS** - macOS-inspired interface
+4. **BuildMyResume** - Resume builder application
+5. **Vi Way** - Travel vlog platform
+6. **Other Projects** - Various web applications and tools
