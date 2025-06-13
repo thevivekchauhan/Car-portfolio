@@ -40,3 +40,6 @@ Visit the live site: [Click here 👆🏻](https://vivekwithcar.vercel.app/)
 
 - Node.js (v14.0.0 or higher)
 - Modern web browser with WebGL support
+
+
+## 🔧 Installation
