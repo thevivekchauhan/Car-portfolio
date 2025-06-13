@@ -61,3 +61,11 @@ npm run build
 
 
 ## 🎮 Controls
+
+- **Desktop**:
+  - Arrow keys: Drive the car
+  - Space: Horn
+  - Mouse: Look around
+- **Mobile**:
+  - Touch controls for movement
+  - Swipe to look around
