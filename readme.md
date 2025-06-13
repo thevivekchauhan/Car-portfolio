@@ -7,3 +7,5 @@ An immersive 3D portfolio experience built with Three.js, showcasing projects th
 Visit the live site: [Click here 👆🏻](https://vivekwithcar.vercel.app/)
 
 ## ✨ Features
+
+- **Interactive 3D Environment**: Navigate through a unique 3D world using car controls
