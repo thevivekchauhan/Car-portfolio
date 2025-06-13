@@ -37,3 +37,5 @@ Visit the live site: [Click here 👆🏻](https://vivekwithcar.vercel.app/)
 
 
 ## 📋 Prerequisites
+
+- Node.js (v14.0.0 or higher)
