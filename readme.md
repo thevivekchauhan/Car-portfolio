@@ -33,3 +33,4 @@ Visit the live site: [Click here 👆🏻](https://vivekwithcar.vercel.app/)
 - GSAP for animations
 - Custom shader materials
 - Vite as build tool
+- Vanilla JavaScript
