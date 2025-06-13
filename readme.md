@@ -43,3 +43,5 @@ Visit the live site: [Click here 👆🏻](https://vivekwithcar.vercel.app/)
 
 
 ## 🔧 Installation
+
+1. Clone the repository:
