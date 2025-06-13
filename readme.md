@@ -12,3 +12,4 @@ Visit the live site: [Click here 👆🏻](https://vivekwithcar.vercel.app/)
 
 - **Project Showcases**:
 -  - Custom-built project displays with 3D boards
+   - Interactive project tiles with descriptions
