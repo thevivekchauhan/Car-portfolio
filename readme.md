@@ -69,3 +69,6 @@ npm run build
 - **Mobile**:
   - Touch controls for movement
   - Swipe to look around
+
+
+## 🎨 Featured Projects
