@@ -30,3 +30,4 @@ Visit the live site: [Click here 👆🏻](https://vivekwithcar.vercel.app/)
 ## 🛠️ Technologies Used
 
 - Three.js for 3D rendering
+- GSAP for animations
