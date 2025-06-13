@@ -17,4 +17,5 @@ Visit the live site: [Click here 👆🏻](https://vivekwithcar.vercel.app/)
      
 - **Responsive Design**: Adapts to both desktop and mobile devices
 
-- - **Custom Controls**:
+ - **Custom Controls**:
+- Arrow keys for movement
