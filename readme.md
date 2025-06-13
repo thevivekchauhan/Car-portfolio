@@ -48,3 +48,8 @@ Visit the live site: [Click here 👆🏻](https://vivekwithcar.vercel.app/)
 ```bash
 npm install
 ```
+
+2. Start the development server:
+```bash
+npm run dev
+```
