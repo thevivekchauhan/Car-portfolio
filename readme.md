@@ -31,3 +31,4 @@ Visit the live site: [Click here 👆🏻](https://vivekwithcar.vercel.app/)
 
 - Three.js for 3D rendering
 - GSAP for animations
+- Custom shader materials
