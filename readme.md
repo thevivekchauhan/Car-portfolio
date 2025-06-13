@@ -34,3 +34,6 @@ Visit the live site: [Click here 👆🏻](https://vivekwithcar.vercel.app/)
 - Custom shader materials
 - Vite as build tool
 - Vanilla JavaScript
+
+
+## 📋 Prerequisites
