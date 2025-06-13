@@ -16,3 +16,5 @@ Visit the live site: [Click here 👆🏻](https://vivekwithcar.vercel.app/)
    - Direct links to live projects
      
 - **Responsive Design**: Adapts to both desktop and mobile devices
+
+- - **Custom Controls**:
