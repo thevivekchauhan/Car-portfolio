@@ -10,4 +10,5 @@ Visit the live site: [Click here 👆🏻](https://vivekwithcar.vercel.app/)
 
 - **Interactive 3D Environment**: Navigate through a unique 3D world using car controls
 
-- **Project Showcases**: 
+- **Project Showcases**:
+-  - Custom-built project displays with 3D boards
