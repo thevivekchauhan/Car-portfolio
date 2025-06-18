@@ -74,9 +74,9 @@ export default class ProjectsSection
                 name: "Vivek's Room",
                 description: 'This immersive 3D portfolio presents my work through a modern digital room setup where each device—from PCs to mobile phones—runs a personalized Windows clone I developed, illustrating cross-device consistency and UI/UX design capabilities.',
                 imageSources: [
-                    '/models/projects/Vivek\'s_Room.png',
+                    '/models/projects/profile.jpg',
                     '/models/projects/Vivek\'s_Room1.png',
-                    '/models/projects/Vivek\'s_Room2.png'
+                    '/models/projects/Vivek\'s_Room.png',
                 ],
                 floorTexture: this.resources.items.projectsVivekRoomFloorTexture,
                 link: {
