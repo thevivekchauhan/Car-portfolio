@@ -1,4 +1,4 @@
-# 3D Interactive Portfolio,
+# 3D Interactive Portfolio
 
 An immersive 3D portfolio experience built with Three.js, showcasing projects through an interactive car-driven interface.
 
