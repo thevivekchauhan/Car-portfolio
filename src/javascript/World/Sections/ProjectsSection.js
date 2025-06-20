@@ -71,6 +71,24 @@ export default class ProjectsSection
     {
         this.list = [
              {
+                name: "Project Hub",
+                description: 'I have developed this website to showcase my projects and skills in a visually appealing and interactive manner. It serves as a digital portfolio, allowing visitors to explore my work and learn more about my expertise.',
+                imageSources: [
+                    '/models/projects/project-hub.png',
+                    '/models/projects/profile.jpg',
+                ],
+                floorTexture: this.resources.items.projectsVivekRoomFloorTexture,
+                link: {
+                    href: 'https://github.com/thevivekchauhan',
+                    x: -4.8,
+                    y: -3,
+                    halfExtents: {
+                        x: 3.2,
+                        y: 1.5
+                    }
+                }
+            },
+             {
                 name: "Vivek's Room",
                 description: 'This immersive 3D portfolio presents my work through a modern digital room setup where each device—from PCs to mobile phones—runs a personalized Windows clone I developed, illustrating cross-device consistency and UI/UX design capabilities.',
                 imageSources: [
